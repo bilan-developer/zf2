@@ -12,7 +12,7 @@ namespace AppAdmin;
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
 
-class Module
+class Module 
 {
     public function onBootstrap(MvcEvent $e)
     {
