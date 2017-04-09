@@ -1,0 +1,14 @@
+<h1>Категории</h1>
+
+<table class="table table-striped">
+	<tr>
+		<td>№</td>
+		<td>Название</td>
+	</tr>
+	<?php foreach ($category as $item) { ?>
+		<tr>
+			<td><?php echo $item->getId() ?></td>
+			<td><?php echo $item->getName() ?></td>
+		</tr>
+	<?php } ?>
+</table>
