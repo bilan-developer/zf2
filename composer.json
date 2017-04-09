@@ -9,8 +9,6 @@
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "~2.4.11",
-        "doctrine/doctrine-orm-module":"0.8.0",
-        "vgarvardt/zf-simple-migrations": "dev-master"
+        "zendframework/zendframework": "~2.4.11"
     }
 }

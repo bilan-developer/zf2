@@ -7,8 +7,7 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-return array(   
-
+return array(
     'router' => array(
         'routes' => array(
            'app-admin' => array(
@@ -60,8 +59,7 @@ return array(
     ),
     'controllers' => array(
         'invokables' => array(
-            'AppAdmin\Controller\Index' => 'AppAdmin\Controller\IndexController',
-            'AppAdmin\Controller\Category' => 'AppAdmin\Controller\CategoryController',
+            'AppAdmin\Controller\Index' => 'AppAdmin\Controller\IndexController'
         ),
     ),
     'view_manager' => array(
